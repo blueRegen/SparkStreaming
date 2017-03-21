@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/jars/servlet-api-2.5-6.1.14.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/srcs/servlet-api-2.5-6.1.14-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

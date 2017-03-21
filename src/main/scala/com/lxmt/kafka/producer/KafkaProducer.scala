@@ -3,16 +3,13 @@ package com.lxmt.kafka.producer
 import java.io.ByteArrayOutputStream
 import java.util.{UUID, Properties}
 
-import com.twitter.bijection.Injection
-import com.twitter.bijection.avro.GenericAvroCodecs
+
 import kafka.producer.{ProducerConfig, Producer, KeyedMessage}
 import org.apache.avro.Schema
 import org.apache.avro.Schema.Parser
 import org.apache.avro.generic.{GenericData, GenericRecord}
 import org.apache.avro.io.{EncoderFactory, BinaryEncoder}
 import org.apache.avro.specific.SpecificDatumWriter
-import org.apache.kafka.clients.producer.KafkaProducer
-
 import scala.io.Source
 
 /**
