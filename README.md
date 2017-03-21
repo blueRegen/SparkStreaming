@@ -8,7 +8,7 @@ wget http://mirror.fibergrid.in/apache/kafka/0.10.2.0/kafka_2.11-0.10.2.0.tgz </
 
 tar -zvxf kafka_2.11-0.10.2.0.tgz 
 
-cd SparkStreaminngPipeline-assembly-1.0.jar
+cd kafka_2.11-0.10.2.0
 
 bin/kafka-server-start.sh config/server.properties ## starts the kafka server
 
