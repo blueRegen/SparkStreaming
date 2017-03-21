@@ -1,2 +1,2 @@
-# SparkStreaminngPipeline
+# SparkStreamingPipeline
 Kafka - Spark Streaming Transformer
