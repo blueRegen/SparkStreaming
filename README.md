@@ -4,7 +4,7 @@ Kafka - Spark Streaming Transformer
 Initialize an aws emr cluster with spark(2.1.0) and hbase (1.3.0)
 Login
 
-wget http://mirror.fibergrid.in/apache/kafka/0.10.2.0/kafka_2.11-0.10.2.0.tgz
+wget http://mirror.fibergrid.in/apache/kafka/0.10.2.0/kafka_2.11-0.10.2.0.tgz </br>
 
 tar -zvxf kafka_2.11-0.10.2.0.tgz 
 cd SparkStreaminngPipeline-assembly-1.0.jar
